@@ -28,10 +28,10 @@ public final class Main {
         // Variables
         int totalPatas;
         int totalPares;
-        int patasanimal1;
-        int patasanimal2;
-        int patasanimal3;
-        int patasanimal4;
+        int patasAnimal1;
+        int patasAnimal2;
+        int patasAnimal3;
+        int patasAnimal4;
 
         //Constantes
         final String Animal1 = "Vaca";
