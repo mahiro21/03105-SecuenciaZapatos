@@ -34,46 +34,46 @@ public final class Main {
         int patasAnimal4;
 
         //Constantes
-        final String Animal1 = "Vaca";
-        final int Vacas = 3;
-        final String Animal2 = "Oveja";
-        final int Ovejas = 14;
-        final String Animal3 = "Burro";
-        final int Burros = 2;
-        final String Animal4 = "Gallina";
-        final int Gallinas = 18;
+        final String ANIMAL_1 = "Vaca";
+        final int VACA = 3;
+        final String ANIMAL_2 = "Oveja";
+        final int OVEJA = 14;
+        final String ANIMAL_3 = "Burro";
+        final int BURRO = 2;
+        final String ANIMAL_4 = "Gallina";
+        final int GALLINA = 18;
 
-        final int Cuadropedo = 4;
-        final int Bipedo = 2;
+        final int CUADRUPEDO = 4;
+        final int BIPEDO = 2;
 
         //Operaciones
         System.out.printf("Secuencia de Kung-Fu%n====================%n");
         //Vaca
-        System.out.printf("Animal ........: %s%n", Animal1);
-        System.out.printf("Cantidad .......: %d%n", Vacas);
-        patasanimal1 = Vacas * Cuadropedo;
-        System.out.printf("Patas ..........: %d%n", patasanimal1);
+        System.out.printf("Animal ........: %s%n", ANIMAL_1);
+        System.out.printf("Cantidad .......: %d%n", VACA);
+        patasAnimal1 = VACA * CUADRUPEDO;
+        System.out.printf("Patas ..........: %d%n", patasAnimal1);
         //Oveja
         System.out.printf("---%n");
-        System.out.printf("Animal ........: %s%n", Animal2);
-        System.out.printf("Cantidad .......: %d%n", Ovejas);
-        patasanimal2 = Ovejas * Cuadropedo;
-        System.out.printf("Patas ..........: %d%n", patasanimal2);
+        System.out.printf("Animal ........: %s%n", ANIMAL_2);
+        System.out.printf("Cantidad .......: %d%n", OVEJA);
+        patasAnimal2 = OVEJA * CUADRUPEDO;
+        System.out.printf("Patas ..........: %d%n", patasAnimal2);
         System.out.printf("---%n");
         //Burro
-        System.out.printf("Animal ........: %s%n", Animal3);
-        System.out.printf("Cantidad .......: %d%n", Ovejas);
-        patasanimal3 = Ovejas * Cuadropedo;
-        System.out.printf("Patas ..........: %d%n", patasanimal3);
+        System.out.printf("Animal ........: %s%n", ANIMAL_3);
+        System.out.printf("Cantidad .......: %d%n", BURRO);
+        patasAnimal3 = BURRO * CUADRUPEDO;
+        System.out.printf("Patas ..........: %d%n", patasAnimal3);
         System.out.printf("---%n");
         //Gallina
-        System.out.printf("Animal ........: %s%n", Animal4);
-        System.out.printf("Cantidad .......: %d%n", Gallinas);
-        patasanimal4 = Gallinas * Bipedo;
-        System.out.printf("Patas ..........: %d%n", patasanimal4);
+        System.out.printf("Animal ........: %s%n", ANIMAL_4);
+        System.out.printf("Cantidad .......: %d%n", GALLINA);
+        patasAnimal4 = GALLINA * BIPEDO;
+        System.out.printf("Patas ..........: %d%n", patasAnimal4);
         System.out.printf("---%n");
         //Totales
-        totalPatas = patasanimal1 + patasanimal2 + patasanimal3 + patasanimal4;
+        totalPatas = patasAnimal1 + patasAnimal2 + patasAnimal3 + patasAnimal4;
         System.out.printf("Total de Patas .: %d%n", totalPatas);
         totalPares = totalPatas / 2;
         System.out.printf("Total de Pares .: %d%n", totalPares);
